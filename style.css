@@ -209,7 +209,32 @@
 .home .home-content {
 	letter-spacing: 2px;
 }
-.home .home-content .text-2 span{
+
+
+
+@media (max-width: 1104px){
+
+
+.home .max-width{
+	margin-left: 0px;
+}
+.home .home-content {
+	letter-spacing: 1px;
+}
+}
+
+
+@media (max-width: 991px){
+
+
+.max-width{
+	
+	padding: 0 50px;
+	
+}
+}
+@media (min-width: 1800px){
+	.home .home-content .text-2 span{
 	transition: all 0.2s;
 }
 .home .home-content .text-2 span:nth-child(1):hover{
@@ -291,30 +316,7 @@
 }
 
 
-
-
-@media (max-width: 1104px){
-
-
-.home .max-width{
-	margin-left: 0px;
 }
-.home .home-content {
-	letter-spacing: 1px;
-}
-}
-
-
-@media (max-width: 991px){
-
-
-.max-width{
-	
-	padding: 0 50px;
-	
-}
-}
-
 
 @media (max-width: 947px) {
 
@@ -398,7 +400,7 @@
 
 }.max-width{
 	
-	padding: 0 30px;
+	padding: 0 35px;
 	
 }
 
