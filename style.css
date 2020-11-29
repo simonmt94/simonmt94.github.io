@@ -411,3 +411,27 @@
 }
 }
 
+@media (max-width: 380px){
+
+
+.home .home-content .text-2{
+	font-size: 40px;
+
+
+}.navbar .max-width{
+	padding: 0 60px;
+}
+
+.home .home-content .text-3{
+	font-size: 27px;
+}
+.home .home-content .text-1{
+	font-size: 20px;
+	
+}
+
+}
+
+
+
+
