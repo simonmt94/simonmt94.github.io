@@ -134,6 +134,81 @@
 	
 
 }
+
+
+
+/*.home .home-content a span{
+	position: absolute;
+	display: block;
+	background: #5BC692;
+}
+.home .home-content a span:nth-child(1){
+	left: 0;
+	bottom: 20%;
+	width: 1px;
+	height: 60%;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: transform 0.25s;
+
+}
+.home .home-content a:hover span:nth-child(1){
+	transform: scaleY(1);
+	transform-origin: bottom;
+	transition: transform 0.25s;
+
+}
+
+
+.home .home-content a span:nth-child(2){
+	left: 20%;
+	top: 0;
+	width: 60%;
+	height: 1px;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.25s;
+
+}
+.home .home-content a:hover span:nth-child(2){
+	transform: scaleX(1);
+	transform-origin: left;
+	transition: transform 0.25s;
+
+}
+
+.home .home-content a span:nth-child(3){
+	right:  0;
+	bottom: 20%;
+	width: 1px;
+	height: 60%;
+	transform: scaleY(0);
+	transform-origin: bottom;
+	transition: transform 0.25s;
+
+}
+.home .home-content a:hover span:nth-child(3){
+	transform: scaleY(1);
+	transform-origin: top;
+	transition: transform 0.25s;
+
+}*/
+
+.home .home-content a{
+		font-size: 23px;
+		padding: 10px 30px;
+}
+
+
+@media (max-width: 2000px){
+
+
+.max-width{
+	max-width: 95%;
+}
+.home .home-content {
+	letter-spacing: 2px;
+}
 .home .home-content .text-2 span{
 	transition: all 0.2s;
 }
@@ -212,81 +287,6 @@
 }
 
 
-
-
-
-/*.home .home-content a span{
-	position: absolute;
-	display: block;
-	background: #5BC692;
-}
-.home .home-content a span:nth-child(1){
-	left: 0;
-	bottom: 20%;
-	width: 1px;
-	height: 60%;
-	transform: scaleY(0);
-	transform-origin: top;
-	transition: transform 0.25s;
-
-}
-.home .home-content a:hover span:nth-child(1){
-	transform: scaleY(1);
-	transform-origin: bottom;
-	transition: transform 0.25s;
-
-}
-
-
-.home .home-content a span:nth-child(2){
-	left: 20%;
-	top: 0;
-	width: 60%;
-	height: 1px;
-	transform: scaleX(0);
-	transform-origin: right;
-	transition: transform 0.25s;
-
-}
-.home .home-content a:hover span:nth-child(2){
-	transform: scaleX(1);
-	transform-origin: left;
-	transition: transform 0.25s;
-
-}
-
-.home .home-content a span:nth-child(3){
-	right:  0;
-	bottom: 20%;
-	width: 1px;
-	height: 60%;
-	transform: scaleY(0);
-	transform-origin: bottom;
-	transition: transform 0.25s;
-
-}
-.home .home-content a:hover span:nth-child(3){
-	transform: scaleY(1);
-	transform-origin: top;
-	transition: transform 0.25s;
-
-}*/
-
-.home .home-content a{
-		font-size: 23px;
-		padding: 10px 30px;
-}
-
-
-@media (max-width: 2000px){
-
-
-.max-width{
-	max-width: 95%;
-}
-.home .home-content {
-	letter-spacing: 2px;
-}
 
 }
 
@@ -396,6 +396,10 @@
 	font-size: 50px;
 
 
+}.max-width{
+	
+	padding: 0 30px;
+	
 }
 
 .home .home-content .text-3{
