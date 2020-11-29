@@ -12,7 +12,7 @@
 .max-width{
 	max-width: 1300px;
 	padding:  0 80px;
-	margin: auto;
+	
 }
 .navbar{
 	position: fixed;
@@ -203,14 +203,13 @@
 @media (max-width: 2000px){
 
 
-.max-width{
-	max-width: 95%;
-}
 .home .home-content {
 	letter-spacing: 2px;
 }
-
-
+ 
+.navbar .max-width{
+	margin:auto 0 auto 40px;
+}
 
 @media (max-width: 1104px){
 
@@ -223,13 +222,20 @@
 }
 }
 
+@media (max-width: 1120px){
+
+	.home .max-width{
+		margin:auto 0 auto 40px;
+	}
+}
+
 
 @media (max-width: 991px){
 
 
-.max-width{
+.home .max-width{
 	
-	padding: 0 50px;
+margin-left: 0;
 	
 }
 }
@@ -311,15 +317,19 @@
 
 }
 
+		
 
 
 }
 
 
-}
+
 
 @media (max-width: 947px) {
 
+.navbar .max-width{
+	margin-left: 0px;
+}
 
 .menu-btn{
 
@@ -418,6 +428,9 @@
 	font-size: 40px;
 
 
+}
+.navbar .max-width{
+	align-content: flex-start;
 }
 
 .home .home-content .text-3{
