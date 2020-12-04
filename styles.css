@@ -738,6 +738,7 @@ footer span a:hover{
     .home .max-width{
         margin-left: 0px;
     }
+
 }
 
 @media (max-width: 1104px) {
@@ -833,6 +834,7 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+
 }
 
 @media (max-width: 500px) {
@@ -861,4 +863,12 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+
+
+}
+
+
+@media (max-width: 368px){
+
+    .typing:before { content: ' '; display: block; }
 }
