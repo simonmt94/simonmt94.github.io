@@ -871,4 +871,9 @@ footer span a:hover{
 @media (max-width: 368px){
 
     .typing:before { content: ' '; display: block; }
+
+  
+    .home .home-content .text-3{
+        font-size: 28px;
+    }
 }
