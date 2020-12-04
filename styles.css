@@ -151,6 +151,7 @@ section .title::after{
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
+    z-index: 1; 
 }
 .scroll-up-btn.show{
     bottom: 30px;
@@ -458,6 +459,15 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .pg::before{
+    width: 80%;
+}
+.skills-content .right .ai::before{
+    width: 40%;
+}
+.skills-content .right .photoshop::before{
+    width: 30%;
+}
+.skills-content .right .fl::before{
     width: 80%;
 }
 /* teams section styling */
